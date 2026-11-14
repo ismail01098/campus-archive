@@ -1,0 +1,4 @@
+export function formatDate(value: string) {
+  return new Intl.DateTimeFormat("en-IN", { day: "numeric", month: "short", year: "numeric" }).format(new Date(value));
+}
+export function cx(...values: (string | false | null | undefined)[]) { return values.filter(Boolean).join(" "); }
