@@ -71,7 +71,7 @@ export default async function UploadPage({
         paddingBottom: 50,
       }}
     >
-      <div className="panel" style={{ padding: 28 }}>
+      <div className="panel upload-panel" style={{ padding: 28 }}>
         <h1 style={{ fontSize: 30 }}>
           Upload a question paper
         </h1>

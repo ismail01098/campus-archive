@@ -1,3 +1,4 @@
+
 {
   "name": "campus-archive",
   "version": "1.0.0",
@@ -28,5 +29,10 @@
     "eslint": "^9.28.0",
     "eslint-config-next": "^16.4.6",
     "typescript": "^5.8.3"
+  },
+  "overrides": {
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "11.0.1"
+    }
   }
 }
