@@ -1,4 +1,3 @@
-
 {
   "name": "campus-archive",
   "version": "1.0.0",
@@ -8,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "bulk-upload:papers": "node --env-file=.env.local scripts/bulk-upload-question-papers.mjs"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",
